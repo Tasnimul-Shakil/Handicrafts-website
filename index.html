@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- tailwind and daisy UI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/b6177528c1.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Arsenal:wght@400;700&family=Rosario:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- styles -->
+    <style>
+      .font-amatic {
+        font-family: "Amatic SC", sans-serif;
+      }
+      .font-arsenal{
+        font-family: "Arsenal", sans-serif;
+      }
+      .font-rosario{
+        font-family: "Rosario", sans-serif;
+      }
+    </style>
+
+  </head>
+  <body class="class="font-amatic font-arsenal font-rosario ">
+    <header class="bg-[url('/images/background.png')] bg-repeat-x">
+        <!-- navbar -->
+        <div class="navbar justify-between container mx-auto px-4">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-arsenal">
+                  <li><a>Home</a></li>
+                  <li>
+                    <a>Categories</a>
+                    <ul class="p-2 w-40">
+                      <li><a>Rugs</a></li>
+                      <li><a>Bags & Sleeves</a></li>
+                      <li><a>Home Decor</a></li>
+                      <li><a>Tablewares</a></li>
+                      <li><a>Our Hotties</a></li>
+                    </ul>
+                  </li>
+                  <li><a>About us</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="flex flex-1 gap-0">
+                <img src="./images/logo.svg" alt="">
+                <a class="btn btn-ghost font-arsenal font-normal text-4xl text-[#407B3F] px-0">Handicrafts</a>
+              </div>
+            </div>
+            <div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 font-arsenal">
+                      <li><a>Home</a></li>
+                      <li>
+                        <details>
+                          <summary>Categories</summary>
+                          <ul class="p-2 w-40">
+                              <li><a>Rugs</a></li>
+                              <li><a>Bags & Sleeves</a></li>
+                              <li><a>Home Decor</a></li>
+                              <li><a>Tablewares</a></li>
+                              <li><a>Our Hotties</a></li>
+                          </ul>
+                        </details>
+                      </li>
+                      <li><a>About us</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <div class="navbar-end">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+            </div>
+          </div>
+          <!-- banner -->
+          <div class="container mx-auto mb-20 mt-12">
+            <div class="flex justify-between items-center flex-col lg:flex-row">
+              <div>
+                <h1 class="text-5xl font-arsenal leading-[4rem] font-normal"> <span class="text-[#2C1A00]">Redefining</span> <br>
+                    <span class="text-[#82705D]">Sustainable Living</span> <br>
+                    <span class="text-[#2C1A00]"">with Digital Innovation</span></h1>
+                <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <button class="btn bg-[#82705D] border-0 text-white rounded-tl-full rounded-br-full">View Our Collection <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+              <img src="./images/heroimage.png " class="" />
+            </div>
+          </div>
+    </header>
+    <main class="container mx-auto px-4">
+        <!-- contact info -->
+        <div class=" flex justify-between items-center flex-col lg:flex-row">
+            <article class="flex max-w-xl flex-col items-start justify-between">
+                <div class="card w-96  ">
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-[#407B3F]"><i class="fa-solid fa-phone-volume"></i>Contact Us</h2>
+                      <p>+6221.2002.2012</p>
+                      <div class="card-actions justify-end">
+                      </div>
+                    </div>
+                </div>
+            </article>
+            <article class="flex max-w-xl flex-col items-start justify-between">
+                <div class="card w-96  ">
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-[#407B3F]"><i class="fa-solid fa-envelope-open-text"></i> Mail Address</h2>
+                      <p>hello@yourcompany.com</p>
+                      <div class="card-actions justify-end">
+                      </div>
+                    </div>
+                </div>
+            </article>
+            <article class="flex max-w-xl flex-col items-start justify-between">
+                <div class="card w-96  ">
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-[#407B3F]"><i class="fa-solid fa-location-dot"></i> Our studio</h2>
+                      <p>Mirpur 02, dhaka, Bangladesh</p>
+                      <div class="card-actions justify-end">
+                    </div>
+                </div>
+            </article>
+        </div>
+        <!-- Products list -->
+        <Section>
+            <div class="flex justify-between items-center flex-col lg:flex-row">
+                <div class="">
+                    <h2 class="font-amatic text-4xl text-[#406E74]">Our Product</h2>
+                    <h1 class="font-arsenal text-5xl text-[#2C1A00 font-normal w-80]">Check Out Our <br> Collection</h1>
+                </div>
+                <div class="w-3/4">
+                    <ul class="menu menu-horizontal border-b-2 content-center px-1 gap-3 font-arsenal grid grid-cols-2 lg:grid-cols-5">
+                        <button class="btn bg-[#FFF7EF] hover:bg-[#407B3F] hover:text-white">Rugs</button>
+                        <button class="btn bg-[#FFF7EF] hover:bg-[#407B3F] hover:text-white">Bags & Sleeves</button>
+                        <button class="btn bg-[#FFF7EF] hover:bg-[#407B3F] hover:text-white">Home Decor</button>
+                        <button class="btn bg-[#FFF7EF] hover:bg-[#407B3F] hover:text-white">Tablewares</button>
+                        <button class="btn bg-[#FFF7EF] hover:bg-[#407B3F] hover:text-white">Our Hotties</button>
+                      </ul>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+            </div>
+        </Section>
+
+    </main>
+    <footer>
+
+    </footer>
+  </body>
+</html>
